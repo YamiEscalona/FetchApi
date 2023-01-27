@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promise</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body style="background-color:#ffd6ff;">
+  <center>
+    <div class="container"></div>
+    <h1 style="font-family:'Lobster',cursive;">Usuarios</h1>
+    <button onclick="usuarios()" class="btn" id="usuarios" style="background-color:#e7c6ff; font-family:'Pacifico',cursive;">
+      Obtener Lista De Usuarios
+    </button>
+    </div>
+  </center>
+  
+  <div class="table-responsive my-5">
+    <table class="table align-middle caption-top">
+      <thead class="table" style="text-align: center; background-color: #c8b6ff; font-family:'Dancing Script',cursive;">
+        <tr>
+          <th scope = "col">
+            <strong>ID</strong>
+          </th>
+          <th scope="col">
+            <strong>First Name</strong>
+          </th>
+          <th scope="col">
+            <strong>Last Name</strong>
+          </th>
+          <th scope="col">
+            <strong>Email</strong>
+          </th>
+          <th scope="col">
+            <strong>Image</strong>
+          </th>
+        </tr>
+        <tbody class="tbody" style="background-color:#b8c0ff; text-align:center; font-family:'Dancing Script',cursive;"></tbody>
+      </thead>
+    </table>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
